@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster&family=Oleo+Script:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster&family=Oleo+Script:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#icon{
+    color:rgb(6, 117, 6);
+}
+.navbar-brand{
+    color:black;
+    font-family: "Lobster", sans-serif;
+}
+.navbar-brand:hover{
+    color:black;
+}
+.navbar-nav .nav-link{
+    color: black;
+    font-family: "Rubik", sans-serif;
+    margin-right:10px;
+    margin-left:10px;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-link:hover{
+    color: rgb(116, 111, 111);
+    border:1px solid rgba(215, 8, 149, 0.883);
+}
+.search{
+  height:40px;
+  width:80%;
+  outline:none;
+  border-radius:60px;
+  border:2px solid rgba(215, 8, 149, 0.883);
+  margin-right:-35px;
+}
+.btn0{
+    height:40px;
+    width:40%;
+    outline:none;
+    border-radius:60px;
+    border:none;
+    background:rgba(215, 8, 149, 0.883);
+    color:white;
+    font-weight:700;
+
+}
+
+.btn1{
+    height:45px;
+    width:35%;
+    outline:none;
+    border-radius:60px;
+    border:none;
+    background-color: rgba(215, 8, 149, 0.883);;
+    color:white;
+    font-weight:700;
+
+}
+.btn2{
+    height:45px;
+    width:25%;
+    outline:none;
+    border-radius:60px;
+    border:none;
+    background-color: rgba(215, 8, 149, 0.883);;
+    color:white;
+    font-weight:700;
+
+}
+.btn0:hover{
+    background-color: rgb(212, 53, 85);
+    transition:0.5s;
+}
+.btn1:hover{
+    background-color: rgb(212, 53, 85);
+    transition:0.5s;
+}
+.btn2:hover{
+    background-color: rgb(212, 53, 85);
+    transition:0.5s;
+}
+
+.main{
+    background-image: url(./images/carousel-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.main h1{
+    font-size:64px;
+    font-weight:700;
+}
+.card:hover{
+    -webkit-box-shadow: 9px 10px 46px 3px rgba(0,0,0,0.76);
+    -moz-box-shadow: 9px 10px 46px 3px rgba(0,0,0,0.76);
+    box-shadow: 9px 10px 46px 3px rgba(0,0,0,0.76);
+}
+.line{
+    height:4px;
+    width:10%;
+    background-color: rgb(169, 207, 16);
+    display: inline-block;
+}
+#welcome{
+    background-color:rgb(45, 152, 33);
+}
+
+#welcome .card{
+    border:none;
+    border-radius:0;
+    cursor: pointer;
+}
+#welcome i{
+    font-size:45px;
+    color:rgb(45, 152, 33);
+}
+#Features .card-body i{
+    font-size:45px;
+}
+#Footer{
+    background-color: rgb(45, 152, 33);
+    height:100px;
+    width:100%;
+}
